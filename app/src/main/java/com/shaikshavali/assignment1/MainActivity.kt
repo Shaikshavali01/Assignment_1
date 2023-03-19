@@ -9,6 +9,7 @@ import android.text.Editable
 import android.view.View
 import android.widget.*
 import androidx.core.content.ContextCompat
+import java.text.SimpleDateFormat
 import java.util.*
 
 
@@ -77,7 +78,7 @@ class MainActivity : AppCompatActivity() {
                 id: Long
             ) {
 
-//                Toast.makeText(applicationContext,"passed out year is "+years[position],Toast.LENGTH_SHORT).show()
+//               Toast.makeText(applicationContext,"passed out year is "+years[position],Toast.LENGTH_SHORT).show()
                 if(years[position] == "SELECT"){
                    isyearselected = false
                 }
@@ -180,6 +181,8 @@ class MainActivity : AppCompatActivity() {
                 this,
                 TimePickerDialog.OnTimeSetListener{ view, hour, min->
                     val selectedtime = "$hour:$min"
+
+
 
                     tvselectdatetime?.text = "$selectedDate | $selectedtime"
 
