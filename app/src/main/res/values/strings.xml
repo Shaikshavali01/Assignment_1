@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="add_users">Add Users</string>
+    <string name="name">Name</string>
+    <string name="college_name">College name</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="btech">Btech passout year</string>
+    <string name="select">Select</string>
+    <string name="dob">DOB</string>
+    <string name="dobDate">Select DOB date</string>
+    <string name="dobTime">Date and TIme</string>
+    <string name="selectdatetime">Select Date and Time</string>
+    <string name="howdourate">How do you rate your self</string>
+    <string name="howurate">How do you rate your self 1 to 5</string>
+    <string name="submit">Submit</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="header_bar_content_description">Header bar</string>
+    <string name="dob_image_description">dob image</string>
+    <string name="date_time_description">date and time description</string>
+    <string name="stars_image_description">stars image description</string>
+
+</resources>
